@@ -1,0 +1,20 @@
+{
+  "name": "@jovinbm/resolver",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovinbm/axperror_wrapper.git"
+  },
+  "author": "jovinbeda@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "erry": "*",
+    "colors": "^1.1.2"
+  }
+}

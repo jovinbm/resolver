@@ -1,0 +1,1 @@
+# A simple error resolver module
