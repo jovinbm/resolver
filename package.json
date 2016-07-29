@@ -1,6 +1,6 @@
 {
   "name": "@jovinbm/resolver",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,9 @@
   "author": "jovinbeda@hotmail.com",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^4.3.0",
     "bluebird": "^3.3.4",
-    "erry": "*",
-    "colors": "^1.1.2"
+    "colors": "^1.1.2",
+    "erry": "*"
   }
 }

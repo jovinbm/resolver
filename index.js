@@ -1,9 +1,5 @@
 // NODE
-var Resolver     = require('./lib/Resolver');
-var resolver     = new Resolver();
-exports.Resolver = resolver;
+exports.Resolver = new require('./lib/Resolver')();
 
 // BROWSER
-var Resolver_browser     = require('./lib/Resolver_browser');
-var resolver_browser     = new Resolver_browser();
-exports.Resolver_browser = resolver_browser;
+exports.ResolverBrowser = new require('./lib/ResolverBrowser')();
